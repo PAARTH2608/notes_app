@@ -13,7 +13,7 @@ node app Add --title="-" --body="-"
 ```
 3. Remove the note using the command.
 ```bash
-node Remove --title="-"
+node app Remove --title="-"
 ```
 4. To see your notes run
 ```bash 
