@@ -15,3 +15,11 @@ node app Add --title="-" --body="-"
 ```bash
 node Remove --title="-"
 ```
+4. To see your notes run
+```bash 
+node app List
+```
+5. To search for the note run
+```bash 
+node app Read --title="-"
+ ```
