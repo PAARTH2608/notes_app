@@ -11,3 +11,7 @@ npm install
 ```bash
 node app Add --title="-" --body="-"
 ```
+3. Remove the note using the command.
+```bash
+node Remove --title="-"
+```
