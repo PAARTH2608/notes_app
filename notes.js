@@ -12,7 +12,7 @@ const addNote = function(title, body){
             body: body
         })
         saveNotes(notes);
-        console.log('New Note Added!')
+        console.log(chalk.inverse.greenBright('New Note Added!'))
     }else {
         console.log('Already Taken')
     }
